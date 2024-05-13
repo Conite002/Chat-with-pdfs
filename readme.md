@@ -1,6 +1,5 @@
 # Application de Discussion MultiPDF
 
-> Vous pouvez trouver le tutoriel pour ce projet sur [YouTube](https://youtu.be/dXxQ0LR-3Hg).
 
 ## Introduction
 ------------
