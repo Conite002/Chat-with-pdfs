@@ -29,9 +29,7 @@ Pour installer l'Application de Discussion MultiPDF, veuillez suivre ces étapes
 1. Clonez le dépôt sur votre machine locale.
 
 2. Installez les dépendances requises en exécutant la commande suivante :
-   ```
-   pip install -r requirements.txt
-   ```
+
 
 3. Obtenez une clé API d'OpenAI et ajoutez-la au fichier `.env` dans le répertoire du projet.
 ```commandline
@@ -42,23 +40,11 @@ OPENAI_API_KEY=votre_cle_api_secrete
 -----
 Pour utiliser l'Application de Discussion MultiPDF, suivez ces étapes :
 
-1. Assurez-vous d'avoir installé les dépendances requises et ajouté la clé API d'OpenAI au fichier `.env`.
 
-2. Exécutez le fichier `main.py` en utilisant l'interface en ligne de commande de Streamlit. Tapez la commande suivante :
-   ```
-   streamlit run app.py
-   ```
+      npm install
+      npm run start
 
-3. L'application se lancera dans votre navigateur web par défaut, affichant l'interface utilisateur.
-
-4. Chargez plusieurs documents PDF dans l'application en suivant les instructions fournies.
-
-5. Posez des questions en langage naturel sur les PDFs chargés à l'aide de l'interface de chat.
 
 ## Contribution
 ------------
 Ce dépôt est destiné à des fins éducatives et n'accepte pas de contributions supplémentaires. Il sert de matériel de soutien pour un tutoriel YouTube qui montre comment construire ce projet. N'hésitez pas à utiliser et à améliorer l'application selon vos propres besoins.
-
-## Licence
--------
-L'Application de Discussion MultiPDF est publiée sous la [licence MIT](https://opensource.org/licenses/MIT).
