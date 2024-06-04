@@ -1,0 +1,35 @@
+{
+  "name": "chatd",
+  "productName": "chatd",
+  "version": "1.0.0",
+  "description": "Chat with your documents using local AI",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make",
+    "publish": "electron-forge publish",
+    "lint": "echo \"No linting configured\""
+  },
+  "keywords": [],
+  "author": "BruceMacD",
+  "license": "MIT",
+  "dependencies": {
+    "@orama/orama": "^2.0.0-beta.10",
+    "@xenova/transformers": "^2.6.2",
+    "electron-squirrel-startup": "^1.0.0",
+    "langchain": "^0.0.170",
+    "mammoth": "^1.6.0",
+    "odt2html": "^1.0.1",
+    "pdf-parse": "^1.1.1",
+    "winston": "^3.11.0"
+  },
+  "devDependencies": {
+    "@electron-forge/cli": "^6.1.1",
+    "@electron-forge/maker-deb": "^6.1.1",
+    "@electron-forge/maker-rpm": "^6.1.1",
+    "@electron-forge/maker-squirrel": "^6.1.1",
+    "@electron-forge/maker-zip": "^6.1.1",
+    "electron": "^24.1.1"
+  }
+}
